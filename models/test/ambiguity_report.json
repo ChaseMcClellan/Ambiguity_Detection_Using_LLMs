@@ -1,0 +1,18 @@
+[
+  {
+    "original": "The dashboard should load quickly and look nice.",
+    "ambiguous_terms": ["quickly", "nice"]
+  },
+  {
+    "original": "Send notifications fast.",
+    "ambiguous_terms": ["fast"]
+  },
+  {
+    "original": "Export feature must be efficient.",
+    "ambiguous_terms": ["efficient"]
+  },
+  {
+    "original": "Allow admins to view logs.",
+    "ambiguous_terms": []
+  }
+]
