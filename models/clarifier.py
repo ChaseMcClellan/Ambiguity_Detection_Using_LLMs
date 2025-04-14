@@ -54,12 +54,28 @@ def parse_llm_response(llm_output):
     lines = llm_output.strip().splitlines()
 
     que = [line.strip('- ') for line in lines if line.strip().startswith("- Q")]
-    rewritten_line = next((line for line in lines if line.strip().startswith("Rewritten Requirement:")), None)
+    #Initialize rewritten requirement as empty
+    rewritten = ""
 
-    if not que or rewritten_line is None:
+    # Loop through each line to find the one that starts with "Rewritten Requirement:"
+    for i, line in enumerate(lines):
+        if line.strip().startswith("Rewritten Requirement:"):
+            parts = line.split(":", 1)
+            # Case 1 The rewritten requirement is on the same line
+            if len(parts) > 1 and parts[1].strip():
+                rewritten = parts[1].strip()
+            else:
+                # Case 2 The rewritten requirement is on the next lines
+                # Look ahead to find the next non-empty line as the rewritten version
+                for j in range(i + 1, len(lines)):
+                    if lines[j].strip():
+                        rewritten = lines[j].strip()
+                        break
+            break # Exit loop once we've found and handled the rewritten requirement
+
+    if not que or rewritten is None:
         raise ValueError("Malformed LLM response. Could not parse questions or rewritten requirement.")
 
-    rewritten = rewritten_line.replace("Rewritten Requirement:", "").strip()
     return que, rewritten
 
 def process_requirements(data):
