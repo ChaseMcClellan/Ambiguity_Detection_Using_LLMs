@@ -27,12 +27,14 @@ import logging
 from ollama_prompting import clarify_requirement
 
 logging.basicConfig(
+    #TODO I set up this for a debug log, change file location if needed
     filename='logs/clarify.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s'
 )
 
+#TODO Change where input/output should be
 INPUT_FILE = "test/ambiguity_report.json"
 OUTPUT_FILE = "test/refined_requirements.json"
 
