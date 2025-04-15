@@ -1,7 +1,7 @@
 import os
 import json
 from models.github_scraper import get_requirements, save_to_file
-from models.ambiguity_detector import load_requirements, generate_ambiguity_report, save_report
+from models.ambiguity_detector import load_input_requirements, generate_ambiguity_report, save_ambiguity_report
 from models.clarifier import load_ambiguity_report, process_requirements, save_refined_requirements
 
 # Input/output file paths
@@ -15,11 +15,11 @@ def main():
     save_to_file(scraped_data, INPUT_FILE)  # Save scraped issues as your dataset
 
     print("Loading requirements...")
-    requirements = load_requirements(INPUT_FILE)
+    requirements = load_input_requirements(INPUT_FILE)
 
     print("Running ambiguity detection...")
     ambiguity_report = generate_ambiguity_report(requirements)
-    save_report(ambiguity_report, AMBIGUITY_REPORT_FILE)
+    save_ambiguity_report(ambiguity_report, AMBIGUITY_REPORT_FILE)
     print(f"Ambiguity report saved to: {AMBIGUITY_REPORT_FILE}")
 
     print("Clarifying vague requirements...")

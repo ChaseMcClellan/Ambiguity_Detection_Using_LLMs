@@ -1,7 +1,7 @@
 import requests
 
 OLLAMA_API = "http://localhost:11434/api/generate"
-MODEL_NAME = "gemma3"
+MODEL_NAME = "llama3.2:3b"
 
 
 def generate_with_ollama(prompt, model=MODEL_NAME):
