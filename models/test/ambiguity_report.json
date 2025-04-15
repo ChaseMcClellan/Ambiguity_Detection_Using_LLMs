@@ -1,18 +1,16 @@
 [
   {
     "original": "The dashboard should load quickly and look nice.",
-    "ambiguous_terms": ["quickly", "nice"]
+    "ambiguous_terms": [
+      "term1: Quickly (speed can vary based on different network conditions and hardware capabilities)",
+      "term2: Nice (this term is subjective as what looks nice for one person may not be the same for another. It could refer to aesthetics, design, or even performance.)"
+    ]
   },
   {
-    "original": "Send notifications fast.",
-    "ambiguous_terms": ["fast"]
-  },
-  {
-    "original": "Export feature must be efficient.",
-    "ambiguous_terms": ["efficient"]
-  },
-  {
-    "original": "Allow admins to view logs.",
-    "ambiguous_terms": []
+    "original": "Allow users to easily reset their password.",
+    "ambiguous_terms": [
+      "Easy (This term can be interpreted differently by different users. It's important to define what \"easy\" means in this context.)",
+      "Reset (The requirement should specify if it includes the initial setup password or just password reset after a forgotten password scenario, as they may have different complexities and requirements.)"
+    ]
   }
 ]
