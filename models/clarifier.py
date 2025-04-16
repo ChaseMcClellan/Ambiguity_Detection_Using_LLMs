@@ -35,8 +35,8 @@ logging.basicConfig(
 )
 
 #TODO Change where input/output should be
-INPUT_FILE = "test/ambiguity_report.json"
-OUTPUT_FILE = "test/refined_requirements.json"
+INPUT_FILE = "output/ambiguity_report.json"
+OUTPUT_FILE = "output/refined_requirements.json"
 
 #load the report:
 
