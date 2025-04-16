@@ -1,0 +1,311 @@
+[
+  {
+    "original": "UI request -- change behavior of settings widget",
+    "ambiguous_terms": [
+      "behavior",
+      "settings widget"
+    ],
+    "questions": [
+      "Q1: What specific aspect of the settings widget's behavior needs to be changed (e.g. layout, appearance, functionality)?",
+      "Q2: Is there a particular setting within the widget that should trigger the change in behavior?"
+    ],
+    "rewritten": "\"UI request -- modify the display format of the 'Display Options' setting within the settings widget.\""
+  },
+  {
+    "original": "Accept empty server and port in Create connection dialog with filling default values",
+    "ambiguous_terms": [
+      "empty",
+      "default"
+    ],
+    "questions": [
+      "Q1: What exactly does \"empty\" mean in the context of a server and port (e.g. is it a valid IP address, hostname, or a specific numeric value)?",
+      "Q2: Are there any specific default values that should be used for an empty server and port, such as a predefined IP address and port combination?"
+    ],
+    "rewritten": "\"A server and port can be left blank in the Create connection dialog and should automatically populate with a predefined IP address of '127.0.0.1' and port number 8080.\""
+  },
+  {
+    "original": "New feature: allows editing of SQL code while a query is running",
+    "ambiguous_terms": [
+      "running",
+      "editing",
+      "query"
+    ],
+    "questions": [
+      "Q1: Does \"running\" refer to a specific phase of the query execution (e.g., while it's waiting for data, during data processing, or at the end of execution)?",
+      "Q2: What exactly does \"editing\" entail in terms of user interaction with the SQL code? Should it allow users to modify variables, parameters, or only the actual SQL statements?"
+    ],
+    "rewritten": "\"When a query is currently being executed and the user wants to make changes to the SQL statement or its associated data, they can modify the SQL code.\""
+  },
+  {
+    "original": "Remember window size from previous session",
+    "ambiguous_terms": [
+      "previous session",
+      "window size"
+    ],
+    "questions": [
+      "Q1: What type of data is being stored for the previous session, and how will it be retrieved to determine the window size?",
+      "Q2: Will the window size refer specifically to the screen resolution or also consider other factors such as font sizes or application-specific dimensions?"
+    ],
+    "rewritten": "\"The application should restore a saved setting that determines the maximum width and height of windows for a user's session, using a previously stored value retrieved from a local storage mechanism such as cookies or a user preferences file.\""
+  },
+  {
+    "original": "OmniDB 3b scrolling bug",
+    "ambiguous_terms": [
+      "scrolling",
+      "bug"
+    ],
+    "questions": [
+      "Q1: What type of scrolling behavior is causing the issue (e.g., horizontal, vertical, both)?",
+      "Q2: Is the bug related to a specific action or event that triggers the scrolling behavior?"
+    ],
+    "rewritten": "\"The OmniDB 3b application will fail to scroll correctly when displaying more than 500 records in a grid view, resulting in an unresponsive interface.\""
+  },
+  {
+    "original": "Filter large database list in Postgresql",
+    "ambiguous_terms": [
+      "large",
+      "database list"
+    ],
+    "questions": [
+      "Q1: What does \"large\" mean in terms of size (e.g., number of records, data volume) for the purpose of filtering?",
+      "Q2: Are we referring to a specific database schema or table within the PostgreSQL database that needs filtering?"
+    ],
+    "rewritten": "Filter all records from the 'customers' table in the 'sales_data' schema of the PostgreSQL database where the total sales amount exceeds 1000."
+  },
+  {
+    "original": "Save the state of the autocomplete button",
+    "ambiguous_terms": [
+      "state",
+      "button"
+    ],
+    "questions": [
+      "Q1: What exactly does \"saving the state\" of the autocomplete button mean? Is it related to data persistence, or is it more about remembering a specific setting (e.g., whether the button is enabled or disabled)?",
+      "Q2: Are we talking about saving the state as a user interacts with the autocomplete button, or at some other point (e.g., when the application starts up or shuts down)?"
+    ],
+    "rewritten": "\"Save the current value of the autocomplete button's toggle switch.\""
+  },
+  {
+    "original": "Remember tree view state",
+    "ambiguous_terms": [
+      "tree view state",
+      "remember"
+    ],
+    "questions": [
+      "Q1: What kind of data is stored within the tree view, and how does its state need to be preserved?",
+      "Q2: Does \"remember\" imply that the system should recall a specific state from storage or maintain a persistent state across multiple sessions?"
+    ],
+    "rewritten": "The application must preserve the selection and nesting order of nodes in the tree view data structure."
+  },
+  {
+    "original": "SSH tab doesn\u00b4t expand all window",
+    "ambiguous_terms": [
+      "expand all window",
+      "window"
+    ],
+    "questions": [
+      "Q1: What exactly does \"expand all window\" mean in the context of an SSH tab? Is it referring to resizing the entire window, or is it about adding new content or features within the current window?",
+      "Q2: Does \"window\" refer specifically to a graphical user interface component (e.g., a terminal window), or is it a broader term that could also include other types of interfaces or views?"
+    ],
+    "rewritten": "\"SSH tab should be resized to fully fill the available horizontal and vertical space in its current graphical representation.\""
+  },
+  {
+    "original": "Improve outer menu",
+    "ambiguous_terms": [
+      "outer menu",
+      "improve"
+    ],
+    "questions": [
+      "Q1: What exactly does \"improve\" mean in this context? Is it related to user experience, performance, functionality, or something else?",
+      "Q2: Can you provide more information about the outer menu? Which system or application is it a part of, and where is it located?"
+    ],
+    "rewritten": "\"The navigation bar at the top of the main dashboard should be redesigned to make it more accessible and visually appealing.\""
+  },
+  {
+    "original": "Data Table copy Column Headers and Tree View memory",
+    "ambiguous_terms": [
+      "memory",
+      "Tree View"
+    ],
+    "questions": [
+      "Q1: What type of data will be displayed in the Tree View, and are there any specific formats (e.g., numbers, text) that need to be handled differently?",
+      "Q2: Does \"memory\" refer to memory usage or performance impact, and would it be acceptable for the copy function to consume additional resources temporarily during execution?"
+    ],
+    "rewritten": "\"The data table will copy its column headers. The Tree View will display a list of nodes representing the hierarchical structure of the data. When copying the data, ensure that the program does not excessively consume system memory.\""
+  },
+  {
+    "original": "Support for CentOS 8 / RedHat 8",
+    "ambiguous_terms": [
+      "Linux"
+    ],
+    "questions": [
+      "Q1: Will the supported Linux distribution be installed and managed exclusively by our team, or will there be any external configuration or updates?",
+      "Q2: What specific software components (e.g., database, web server) need to be supported on CentOS 8/RedHat 8?"
+    ],
+    "rewritten": "Support for a fully-managed installation of the PostgreSQL database software on CentOS 8."
+  },
+  {
+    "original": "quick search",
+    "ambiguous_terms": [
+      "quick",
+      "search"
+    ],
+    "questions": [
+      "Q1: Can \"quick\" refer to a time-based threshold (e.g., 10 seconds), or does it imply a specific algorithmic approach?",
+      "Q2: What constitutes a successful search result in this context? Does it mean finding at least one match, or is there an exact match required?"
+    ],
+    "rewritten": "The system must be able to perform a search operation within a time limit of no more than 10 seconds, and return at least one relevant result."
+  },
+  {
+    "original": "Upgrade Cytoscape to 3.0 and Cytoscape Spread to latest version",
+    "ambiguous_terms": [
+      "latest version"
+    ],
+    "questions": [
+      "Q1: What is the expected outcome of upgrading Cytoscape to 3.0, and does it imply a specific use case or application where Cytoscape Spread will be used?",
+      "Q2: Are there any specific features or functionality within Cytoscape Spread that need to be upgraded or compatible with the latest version of Cytoscape?"
+    ],
+    "rewritten": "\"Upgrade Cytoscape to 3.0 and ensure compatibility with the latest version of Cytoscape Spread, specifically focusing on feature-level compatibility and ensuring that all required functionalities are supported.\""
+  },
+  {
+    "original": "Outer and inner tabs enhancements",
+    "ambiguous_terms": [
+      "Enhancements",
+      "Tabs"
+    ],
+    "questions": [
+      "Q1: What does \"Outer and inner tabs\" specifically refer to? Are we talking about tabbed interfaces in a user interface, or perhaps physical tabs in a packaging product?",
+      "Q2: By \"enhancements\", do you mean changes in functionality, appearance, or both?"
+    ],
+    "rewritten": "The outer and inner surfaces of a package will be modified to improve their accessibility features."
+  },
+  {
+    "original": "FR: export graph",
+    "ambiguous_terms": [
+      "export graph",
+      "graph",
+      "export"
+    ],
+    "questions": [
+      "Q1: What type of graph is meant to be exported (e.g., network, organizational chart, data visualization)?",
+      "Q2: Does the graph need to include any specific data or metadata (e.g., node values, edges, timestamps)?"
+    ],
+    "rewritten": "The system should export a plain text representation of an organizational chart, including node labels and parent-child relationships."
+  },
+  {
+    "original": "Feature: Display Row Security Policies in tree view",
+    "ambiguous_terms": [
+      "tree view",
+      "Row"
+    ],
+    "questions": [
+      "Q1: What exactly does \"Row\" refer to in this context? Is it a table row, an object, or something else?",
+      "Q2: Can you provide more information about the tree view's structure and how the Row Security Policies will be organized within it?"
+    ],
+    "rewritten": "\"The feature will display all active Row Security Policies in a hierarchical tree view, showing each policy as a node with its corresponding row(s) listed below.\""
+  },
+  {
+    "original": "Navigate through tree view using arrow keys",
+    "ambiguous_terms": [
+      "tree view",
+      "navigate"
+    ],
+    "questions": [
+      "Q1: Is \"tree view\" referring to a hierarchical list of items, or is it a graphical tree structure that needs to be navigated through using the arrow keys?",
+      "Q2: What kind of actions does \"navigate through\" imply in this context? Does it mean scrolling up/down, moving focus between child nodes, or something else?"
+    ],
+    "rewritten": "The user shall use the arrow keys to scroll up/down within a hierarchical list of items presented as a tree view."
+  },
+  {
+    "original": "Show More Than 50 Query Results",
+    "ambiguous_terms": [
+      "more than",
+      "results",
+      "than"
+    ],
+    "questions": [
+      "Q1: What do you mean by \"show\" in the context of query results? Is it a visual display, an alert, or something else?",
+      "Q2: Are we looking for a specific threshold (e.g., 51 results) or is it okay to show all available results if there are more than 50?"
+    ],
+    "rewritten": "Show at least 51 query results."
+  },
+  {
+    "original": "Data analysis and visualization extensions",
+    "ambiguous_terms": [
+      "Data analysis",
+      "Visualization"
+    ],
+    "questions": [
+      "Q1: Can you provide an example of what type of data analysis extensions you are referring to (e.g., statistical calculations, machine learning algorithms, or something else)?",
+      "Q2: Are the visualization extensions primarily focused on displaying data in a graphical format, such as charts and graphs, or do they also involve other types of visualizations like maps or heatmaps?"
+    ],
+    "rewritten": "The requirement is that the system must support basic statistical calculations (e.g., mean, median, standard deviation) and display data in simple bar charts."
+  },
+  {
+    "original": "Feature: automatically register new databases and implement user groups allowing management of several databases for members",
+    "ambiguous_terms": [
+      "several",
+      "management"
+    ],
+    "questions": [
+      "Q1: Can you please clarify what is meant by \"management of several databases for members\"? Is it related to user access control, database permissions, or something else?",
+      "Q2: Are the \"new databases\" being registered automatically created during a specific process (e.g., when a new user joins), or are they pre-existing databases that need to be automatically added to the system?"
+    ],
+    "rewritten": "\"Feature: automatically register new databases into an existing database catalog, and implement user group management allowing users to access selected databases.\""
+  },
+  {
+    "original": "UI improvements",
+    "ambiguous_terms": [
+      "improvements",
+      "UI"
+    ],
+    "questions": [
+      "Q1: Can you provide an example of what kind of \"improvements\" you are looking for? Are they related to user experience, accessibility, performance, or something else?",
+      "Q2: Are there any specific aspects of the UI that need attention, such as navigation, layout, error messages, or visual design?"
+    ],
+    "rewritten": "The application's user interface will be updated to improve its usability and accessibility, specifically focusing on enhancing the display of error messages."
+  },
+  {
+    "original": "Please provide a support for MonetDb and general ODBC ",
+    "ambiguous_terms": [
+      "support",
+      "general"
+    ],
+    "questions": [
+      "Q1: What type of support are you referring to (e.g., configuration, query optimization, error reporting)?",
+      "Q2: Are there any specific requirements or features related to ODBC connectivity that need to be addressed?"
+    ],
+    "rewritten": "Please provide a configuration setup for MonetDb and standard ODBC connections."
+  },
+  {
+    "original": "Improve debug connection to use the user password",
+    "ambiguous_terms": [
+      "debug",
+      "connection",
+      "use",
+      "password",
+      "debug",
+      "connection",
+      "improve",
+      "use",
+      "password"
+    ],
+    "questions": [
+      "Q1: What type of debug connection are we referring to (e.g., database, API, file transfer)?",
+      "Q2: Are there any specific authentication methods that need to be used for the password (e.g., plain text, encrypted)?"
+    ],
+    "rewritten": "\"Establish a secure database connection using the user-provided login credentials.\""
+  },
+  {
+    "original": "Have a tab like \"server status window\" from pgAdmin III",
+    "ambiguous_terms": [
+      "tab like",
+      "server status window",
+      "like"
+    ],
+    "questions": [
+      "Q1: Does \"like\" imply that we should replicate the exact visual layout and features of pgAdmin III's server status window, or is it more about having a tab with similar functionality?",
+      "Q2: What specific type of information does the \"server status window\" display, such as active connections, resource usage, error logs?"
+    ],
+    "rewritten": "Have a tab displaying real-time server information, including connection counts and available resources."
+  }
+]

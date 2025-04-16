@@ -1,0 +1,483 @@
+[
+  {
+    "original": "suggestion - change \"add connection\" button on left nav",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "right-click copy in SQL pane ignores selection",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "UI request -- change behavior of settings widget",
+    "ambiguous_terms": [
+      "behavior",
+      "settings widget"
+    ]
+  },
+  {
+    "original": "No ways to copy column name from Data table",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Accept empty server and port in Create connection dialog with filling default values",
+    "ambiguous_terms": [
+      "empty",
+      "default"
+    ]
+  },
+  {
+    "original": "New feature: allows editing of SQL code while a query is running",
+    "ambiguous_terms": [
+      "running",
+      "editing",
+      "query"
+    ]
+  },
+  {
+    "original": "Beta 3 versions have generic bundle identifier on macOS",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Remember window size from previous session",
+    "ambiguous_terms": [
+      "previous session",
+      "window size"
+    ]
+  },
+  {
+    "original": "OmniDB 3b scrolling bug",
+    "ambiguous_terms": [
+      "scrolling",
+      "bug"
+    ]
+  },
+  {
+    "original": "Filter large database list in Postgresql",
+    "ambiguous_terms": [
+      "large",
+      "database list"
+    ]
+  },
+  {
+    "original": "Allows SQL indentation for the selected query only.",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "OmniDB 3b autocompletion",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "OmniDB 3b edit data tab",
+    "ambiguous_terms": [
+      "edit data tab",
+      "omniDB"
+    ]
+  },
+  {
+    "original": "console \\ef and quicknavigation through the tree",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "login via ssh with jump proxy and ssh agent",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Feature request",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Save the state of the autocomplete button",
+    "ambiguous_terms": [
+      "state",
+      "button"
+    ]
+  },
+  {
+    "original": "Version Control of Snippets",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Remember tree view state",
+    "ambiguous_terms": [
+      "tree view state",
+      "remember"
+    ]
+  },
+  {
+    "original": "OmniDB 3.0.2b : Currently Working Server IP Address/Connection-Name Display Issue",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "List of desired shortcuts",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "OmniDB 3.0.2b : Editor and Interface Font Size",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "SSH tab doesn\u00b4t expand all window",
+    "ambiguous_terms": [
+      "expand all window",
+      "window"
+    ]
+  },
+  {
+    "original": "Save user layout on OmniDB metadata",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "oracle/objects in other schemas ",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "OmniDB icon overlay on the scroll",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Improve outer menu",
+    "ambiguous_terms": [
+      "outer menu",
+      "improve"
+    ]
+  },
+  {
+    "original": "Notarize software for Apple",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "explain",
+    "ambiguous_terms": []
+  },
+  {
+    "original": " SSO authentication by OpenID?",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "add signout-on-close option",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Debugger Plugin for PostgreSQL on Windows",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "How to change sqlite to mysql ?",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Data Table copy Column Headers and Tree View memory",
+    "ambiguous_terms": [
+      "memory",
+      "Tree View"
+    ]
+  },
+  {
+    "original": "Support for CentOS 8 / RedHat 8",
+    "ambiguous_terms": [
+      "Linux"
+    ]
+  },
+  {
+    "original": "Error In SQL Syntax With Variable In Query Tab",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "quick search",
+    "ambiguous_terms": [
+      "quick",
+      "search"
+    ]
+  },
+  {
+    "original": "Clone row",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Individual element color control",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Table columns DDL",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "User interface for omnidb.conf",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Upgrade Django to 2.2",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Upgrade Cytoscape to 3.0 and Cytoscape Spread to latest version",
+    "ambiguous_terms": [
+      "latest version"
+    ]
+  },
+  {
+    "original": "Advanced Object Search in context menu of inner tab creation",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Outer and inner tabs enhancements",
+    "ambiguous_terms": [
+      "Enhancements",
+      "Tabs"
+    ]
+  },
+  {
+    "original": "Auto-refresh of the Tree View",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Support to PostgreSQL 12",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Function parameters values on debug lost if you refresh the function code",
+    "ambiguous_terms": [
+      "lost",
+      "refresh"
+    ]
+  },
+  {
+    "original": "FR: export graph",
+    "ambiguous_terms": [
+      "export graph",
+      "graph",
+      "export"
+    ]
+  },
+  {
+    "original": "Create DB connections from .pgpass",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "add \"execute current query\" command",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Storing MySQL server password",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Add shortcut for \"Save changes\"",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Copy selections as sql statements",
+    "ambiguous_terms": [
+      "selections",
+      "sql statement"
+    ]
+  },
+  {
+    "original": "Table has no primary key, existing rows will be read only.",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Feature: Display Row Security Policies in tree view",
+    "ambiguous_terms": [
+      "tree view",
+      "Row"
+    ]
+  },
+  {
+    "original": "Feature: Show DDL for individual columns",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Navigate through tree view using arrow keys",
+    "ambiguous_terms": [
+      "tree view",
+      "navigate"
+    ]
+  },
+  {
+    "original": "Dashboard for ORACLE db",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Debug - Step Into",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Make user database configurable",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Word wrap in the query editor",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Detach tab into separate window",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Group management - Should only show servers that are included in the selected group",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "List Aggregate for postgresql",
+    "ambiguous_terms": [
+      "Aggregate",
+      "List",
+      "Postgresql"
+    ]
+  },
+  {
+    "original": "Add autocomplete support for snippets",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Show More Than 50 Query Results",
+    "ambiguous_terms": [
+      "more than",
+      "results",
+      "than"
+    ]
+  },
+  {
+    "original": "Data analysis and visualization extensions",
+    "ambiguous_terms": [
+      "Data analysis",
+      "Visualization"
+    ]
+  },
+  {
+    "original": "Feature: automatically register new databases and implement user groups allowing management of several databases for members",
+    "ambiguous_terms": [
+      "several",
+      "management"
+    ]
+  },
+  {
+    "original": "UI improvements",
+    "ambiguous_terms": [
+      "improvements",
+      "UI"
+    ]
+  },
+  {
+    "original": "OmniDB doesn't serach functions by typing",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Feature: Font Colors",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "[Feature Request] Navigate via Foreign Key Columns",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Feature: Show Drop DDL",
+    "ambiguous_terms": [
+      "Drop",
+      "DDL"
+    ]
+  },
+  {
+    "original": "csv import to table",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Named querys",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Please provide a support for MonetDb and general ODBC ",
+    "ambiguous_terms": [
+      "support",
+      "general"
+    ]
+  },
+  {
+    "original": "Allow to manually commit / rollback transaction in Query Tab.",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Improve debug connection to use the user password",
+    "ambiguous_terms": [
+      "debug",
+      "connection",
+      "use",
+      "password",
+      "debug",
+      "connection",
+      "improve",
+      "use",
+      "password"
+    ]
+  },
+  {
+    "original": "Please include to connect and execute inmemory databases",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "oracle other users tables",
+    "ambiguous_terms": [
+      "oracle",
+      "other",
+      "tables"
+    ]
+  },
+  {
+    "original": "Connecting to MSSQL",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Column types",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Indentation on DDL",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Oracle Connection using JDBC",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Have a tab like \"server status window\" from pgAdmin III",
+    "ambiguous_terms": [
+      "tab like",
+      "server status window",
+      "like"
+    ]
+  },
+  {
+    "original": "Editing data",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "oracle Explain-Plan",
+    "ambiguous_terms": [
+      "explain-plan"
+    ]
+  },
+  {
+    "original": "Allow opening and saving sql files in local disk",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "having an option to find tables",
+    "ambiguous_terms": [
+      "option",
+      "find"
+    ]
+  },
+  {
+    "original": "Wish: colors per connection",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Implement Query Saving and Sharing Feature",
+    "ambiguous_terms": []
+  },
+  {
+    "original": "Implement a Query Builder similar to SQL Developer",
+    "ambiguous_terms": []
+  }
+]
